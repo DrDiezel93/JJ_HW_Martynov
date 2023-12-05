@@ -1,0 +1,17 @@
+package HomeWork2;
+
+public class Cat extends Animal{
+    String color;
+
+    public Cat(String name, int age, String color) {
+        super(name, age);
+        this.color = color;
+    }
+
+    public void sound() {
+        System.out.println("Мяу-мяу!");
+    }
+    public void mur(){
+        System.out.println("Муррррррррррррр");
+    }
+}
